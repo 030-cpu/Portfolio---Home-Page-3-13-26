@@ -1,0 +1,109 @@
+/* portfolio css*/
+
+*{
+padding: 0px;
+margin: 0px;
+box-sizing: border-box;
+font-family: "Rakkas", serif;
+font-weight: 400;
+font-style: normal;
+background-color: rgb(39, 37, 49);
+}
+
+li {
+ color: rgb(200, 200, 200);
+}
+
+/* Navigation Bar */
+.navigation{
+    font-size: 30px;
+    color: rgb(24, 20, 58);
+    background-color: rgb(97, 122, 190);
+    flex-direction: row;
+    display: flex;
+    justify-content: space-around;
+    gap: 25px;
+    
+}
+
+.nav-title{
+text-decoration: underline;
+background-color: rgb(97, 122, 190);
+}
+
+#nav-item{
+    align-content: center;
+    background-color: rgb(97, 122, 190);
+}
+
+#nav-photo{
+    width: 200px;
+    height: 200px;
+}
+
+#nav-link{
+    text-decoration: underline;
+    color: bl;
+}
+
+#current{
+    color: blue;
+}
+/* Hero Section */
+
+.hero{
+    text-align: center;
+    height: auto;
+    
+    
+}
+
+#hero-text{
+    color: rgb(200, 200, 200);
+    font-weight: 450;
+    font-size: 40px;
+    padding: 5px;
+}
+
+ #hero-container{
+    padding: 5px;
+    flex-direction:column;
+    display: flex;
+}
+
+#hero-items{
+    margin: 5px;
+    font-size: 30px;
+    width: 300px;
+    align-self: center;
+    color: rgb(24, 20, 58);
+    background-color: rgb(97, 122, 190);
+    border-radius: 10px;
+}
+
+/* About Section */
+
+#about-container{
+border-top: 1px solid rgb(97, 122, 190);
+}
+
+#about-item{
+
+text-align: center;
+font-size: 25px;
+padding: 10px;
+color: rgb(200, 200, 200);
+}
+/* Highlighted Work */
+
+/* Footer */
+
+.footer-box{
+    padding: 10px;
+    text-align: center;
+    border-top: 1px solid rgb(97, 122, 190);
+}
+
+.link-item{
+text-decoration: underline;
+}
