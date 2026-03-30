@@ -1,4 +1,4 @@
-/* portfolio css*/
+/* portfolio - home css*/
 
 *{
 padding: 0px;
@@ -34,6 +34,7 @@ background-color: rgb(97, 122, 190);
 #nav-item{
     align-content: center;
     background-color: rgb(97, 122, 190);
+    transition: height 0.3s ease;
 }
 
 #nav-photo{
@@ -46,9 +47,6 @@ background-color: rgb(97, 122, 190);
     color: bl;
 }
 
-#current{
-    color: blue;
-}
 /* Hero Section */
 
 .hero{
@@ -62,7 +60,8 @@ background-color: rgb(97, 122, 190);
     color: rgb(200, 200, 200);
     font-weight: 450;
     font-size: 40px;
-    padding: 5px;
+    margin: 10px;
+    
 }
 
  #hero-container{
@@ -94,7 +93,6 @@ font-size: 25px;
 padding: 10px;
 color: rgb(200, 200, 200);
 }
-/* Highlighted Work */
 
 /* Footer */
 
@@ -106,4 +104,9 @@ color: rgb(200, 200, 200);
 
 .link-item{
 text-decoration: underline;
+}
+
+.text-item:hover {
+    color: blue;
+    text-decoration: underline;
 }
