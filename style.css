@@ -52,6 +52,7 @@ background-color: rgb(97, 122, 190);
 .hero{
     text-align: center;
     height: auto;
+    margin: 35px;
     
     
 }
@@ -60,7 +61,7 @@ background-color: rgb(97, 122, 190);
     color: rgb(200, 200, 200);
     font-weight: 450;
     font-size: 40px;
-    margin: 10px;
+    margin: 20px;
     
 }
 
@@ -84,6 +85,7 @@ background-color: rgb(97, 122, 190);
 
 #about-container{
 border-top: 1px solid rgb(97, 122, 190);
+margin: 5px;
 }
 
 #about-item{
